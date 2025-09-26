@@ -61,3 +61,32 @@ body {
     color: #444;
     font-size: 1rem;
 }
+.home-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    background: #ffffffd8;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    padding: 32px;
+}
+.home-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.home-header h1 {
+    margin: 0 0 8px 0;
+    font-size: 2rem;
+    color: #222;
+}
+.home-content p {
+    margin-bottom: 10px;
+    color: #444;
+    font-size: 1rem;
+}
+.home-content a {
+    margin-bottom: 10px;
+    color: #444;
+    font-size: 1rem;
+}
