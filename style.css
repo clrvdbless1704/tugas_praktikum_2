@@ -12,3 +12,27 @@ body {
     box-shadow: 0 4px 16px rgba(0,0,0,0.1);
     padding: 32px;
 }
+.cv-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.cv-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 85%;
+    object-fit: cover;
+    border: 3px solid #e1e4e8;
+    background: #eaeaea;
+}
+.cv-info h1 {
+    margin: 0 0 8px 0;
+    font-size: 2rem;
+    color: #222;
+}
+.cv-info p {
+    margin: 0;
+    color: #555;
+    font-size: 1.1rem;
+}
